@@ -11,6 +11,7 @@
 // Factory Simulator interface packages
 #include "FSFactoryView.h"
 #include "MachineInformation.h"
+#include "MachineParameters.h"
 #include "FactSimStats.h"
 #include "Provided\QInteractiveGraphicsView.h"
 
@@ -62,6 +63,7 @@ FS::Interface::Interface(QWidget *parent)
 
 	// set connections
 	connect(mView, &FS::FactoryView::activeObject, mMachineInfo, &FS::MachineInformation::activeObject);
+	connect(mView, &FS::FactoryView::activeObject, mMachineParam, &FS::MachineParameters::activeObject);
 }
 
 void FS::Interface::buildDemoScene()
