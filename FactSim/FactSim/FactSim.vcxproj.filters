@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{e7cd4c9d-8a89-4d07-9c3d-9326b5b81e55}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{ea80933d-f2eb-489f-bb37-ad1fc9f3a0b6}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\Provided">
+      <UniqueIdentifier>{2ec357a4-cfe6-4b04-93cf-533ced347eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Provided">
+      <UniqueIdentifier>{025f0ae4-fb34-4990-9e86-49ffb79f7e8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FSCore">
+      <UniqueIdentifier>{c12fc139-ba9f-4292-b348-7554abe8f4f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FSInterface">
+      <UniqueIdentifier>{0b7aa4f6-d82d-4253-9682-522763a8a1e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FSCore">
+      <UniqueIdentifier>{b7722bcd-34c5-47ab-bf20-9789d3e34502}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FSInterface">
+      <UniqueIdentifier>{0760581c-585d-4051-ba9e-e0e45660e9e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FSCore\FSMachine">
+      <UniqueIdentifier>{a64d28ad-8c25-48de-9346-8721fc3b2341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FSCore\FSMachine\FSWorkspace">
+      <UniqueIdentifier>{53acbe77-2829-4a3d-88ad-4c8df477570e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FSCore\FSMachine\FSTransporter">
+      <UniqueIdentifier>{b419c86b-947b-482a-8878-a95fd9e65b3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FSCore\FSMachine">
+      <UniqueIdentifier>{c227bacb-990c-4269-b923-d855780f3b93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FSCore\FSMachine\FSWorkspace">
+      <UniqueIdentifier>{10f4fcf5-8b6b-4805-a930-402c884d00ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FSCore\FSMachine\FSTransporter">
+      <UniqueIdentifier>{276cdd3f-b9ac-45ed-98aa-f11012127aa5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FactSim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FactSim.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FactSim.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_FactSim.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Provided\QInteractiveGraphicsView.cpp">
+      <Filter>Source Files\Provided</Filter>
+    </ClCompile>
+    <ClCompile Include="Provided\QPathBuilder.cpp">
+      <Filter>Source Files\Provided</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QInteractiveGraphicsView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QInteractiveGraphicsView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="FSInterface\FSInterface.cpp">
+      <Filter>Source Files\FSInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FSInterface.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FSInterface.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MachineInformation.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MachineInformation.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="FSInterface\MachineInformation.cpp">
+      <Filter>Source Files\FSInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="FSCore\FSMachine.cpp">
+      <Filter>Source Files\FSCore</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FSFactoryView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FSFactoryView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="FSInterface\FSFactoryView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FSCore\FSImport.cpp">
+      <Filter>Source Files\FSCore\FSMachine\FSWorkspace</Filter>
+    </ClCompile>
+    <ClCompile Include="FSCore\FSWorkspace.cpp">
+      <Filter>Source Files\FSCore\FSMachine\FSWorkspace</Filter>
+    </ClCompile>
+    <ClCompile Include="FSCore\FSTransporter.cpp">
+      <Filter>Source Files\FSCore\FSMachine\FSTransporter</Filter>
+    </ClCompile>
+    <ClCompile Include="FSCore\FSConveyor.cpp">
+      <Filter>Source Files\FSCore\FSMachine\FSTransporter</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FactSimStats.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FactSimStats.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="FSInterface\FactSimStats.cpp">
+      <Filter>Source Files\FSInterface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="FactSim.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FactSim.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FactSim.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Provided\QInteractiveGraphicsView.h">
+      <Filter>Header Files\Provided</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FSInterface\FSInterface.h">
+      <Filter>Header Files\FSInterface</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FSInterface\MachineInformation.h">
+      <Filter>Header Files\FSInterface</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FSInterface\FSFactoryView.h">
+      <Filter>Header Files\FSInterface</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FSInterface\FactSimStats.h">
+      <Filter>Header Files\FSInterface</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_FactSim.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Provided\QPathBuilder.h">
+      <Filter>Header Files\Provided</Filter>
+    </ClInclude>
+    <ClInclude Include="FSCore\FSImport.h">
+      <Filter>Header Files\FSCore\FSMachine\FSWorkspace</Filter>
+    </ClInclude>
+    <ClInclude Include="FSCore\FSWorkspace.h">
+      <Filter>Header Files\FSCore\FSMachine\FSWorkspace</Filter>
+    </ClInclude>
+    <ClInclude Include="FSCore\FSMachine.h">
+      <Filter>Header Files\FSCore\FSMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="FSCore\FSTransporter.h">
+      <Filter>Header Files\FSCore\FSMachine\FSTransporter</Filter>
+    </ClInclude>
+    <ClInclude Include="FSCore\FSConveyor.h">
+      <Filter>Header Files\FSCore\FSMachine\FSTransporter</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

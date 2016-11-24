@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/FactSim">
+        <file alias="Icon">Resources/Icon.svg</file>
+    </qresource>
+</RCC>
