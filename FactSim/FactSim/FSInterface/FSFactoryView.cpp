@@ -11,7 +11,12 @@ FS::FactoryView::FactoryView(QGraphicsScene * scene, QWidget * parent)
 void FS::FactoryView::mouseReleaseEvent(QMouseEvent *event)
 {
 	if (itemAt(event->pos()))
+	{
 		emit activeObject(itemAt(event->pos()));
+	}
 	else
+	{
+		qDebug("You didn't click on an item.");
 		emit activeObject(nullptr);
+	}
 }

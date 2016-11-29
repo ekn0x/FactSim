@@ -3,7 +3,7 @@
 #include <QLabel>
 #include <qslider.h>
 #include <QGroupBox>
-#include <QHBoxLayout>
+#include <QVBoxLayout>
 #include <QGridLayout>
 
 #include <QGraphicsItem>
@@ -20,19 +20,17 @@ FS::MachineParameters::MachineParameters(QWidget *parent)
 	QLabel * speedLabel = new QLabel(QString("Speed"));
 	speedLabel->setFixedWidth(150);
 	speedLabel->setFixedHeight(50);
-	speedLabel->setWordWrap(true);
 
 	mSpeed = new QSlider;
 	mSpeed->setMinimum(0);
 	mSpeed->setMaximum(100);
-	mSpeed->setFixedWidth(250);
-	
+	mSpeed->setFixedWidth(150);
+	mSpeed->setOrientation(Qt::Horizontal);
 
 	// grouping in one box
-	QHBoxLayout *layout = new QHBoxLayout;
+	QVBoxLayout *layout = new QVBoxLayout;
 	layout->addWidget(speedLabel);
 	layout->addWidget(mSpeed);
-	layout->addStretch();
 	GroupBox->setLayout(layout);
 
 	// setting the final layout
@@ -54,7 +52,7 @@ void FS::MachineParameters::activeObject(QGraphicsItem *tgt)
 		if (dynamic_cast<FS::Import*>(tgt))
 		{
 			FS::Import* castedTgt = dynamic_cast<FS::Import*>(tgt);
-			mSpeed->setValue(castedTgt->speed());
+			mSpeed->setValue(static_cast<int>(castedTgt->speed()));
 		}/*
 		 else if (dynamic_cast<FS::Export*>(tgt))
 		 {
@@ -83,7 +81,4 @@ void FS::MachineParameters::activeObject(QGraphicsItem *tgt)
 	{
 		mSpeed->setValue(0);
 	}
-
-
-
 }

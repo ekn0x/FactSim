@@ -46,7 +46,7 @@ FS::MachineInformation::MachineInformation(QWidget *parent)
 
 void FS::MachineInformation::activeObject(QGraphicsItem *tgt)
 {
-	if (!tgt)
+	if (tgt == nullptr)
 	{
 		mName->setText(QString("Machine's name"));
 		mType->setText(QString("Machine's type"));

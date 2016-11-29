@@ -8,11 +8,19 @@ namespace FS
 	class Workspace : public Machine
 	{
 	public:
-		Workspace() = default;
+		Workspace() : Workspace(0, 0, 20, 20) {};
+		Workspace(int XPos, int YPos) : Workspace(XPos, YPos, 20, 20) {};
+		Workspace(int XPos, int YPos, int Width, int Height);
 		~Workspace() = default;
 
-	private:
+		virtual QRectF boundingRect() const override;
+		virtual void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) override;
 
+	protected:
+		int mXPos;
+		int mYPos;
+		int mWidth;
+		int mHeight;
 	};
 };
 

@@ -4,8 +4,8 @@
 #include <QWidget>
 #include <QElapsedTimer>
 
-class QGraphicsItem;
 class QGraphicsScene;
+class QGraphicsItem;
 class QPushButton;
 
 class QTimer;
@@ -13,6 +13,8 @@ class QTimer;
 namespace FS
 {
 	class FactoryView;
+	class FactoryScene;
+
 	class MachineInformation;
 	class MachineParameters;
 	class MachineStatistics;
@@ -47,6 +49,7 @@ namespace FS
 
 		// main panel
 		FS::FactoryView *mView;
+		//FS::FactoryScene *mScene;
 		QGraphicsScene *mScene;
 	};
 };

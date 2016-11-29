@@ -9,10 +9,8 @@ namespace FS
 	{
 	public:
 		Import() = default;
+		Import(int XPos, int YPos);
 		~Import() = default;
-
-		virtual QRectF boundingRect() const override;
-		virtual void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) override;
 
 	private:
 

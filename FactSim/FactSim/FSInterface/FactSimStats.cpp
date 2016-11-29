@@ -9,6 +9,7 @@ FS::FactSimStats::FactSimStats(QWidget *parent)
 {
 	mFPS = new QLabel(QString("FPS : "));
 	mFPS->setAlignment(Qt::AlignRight);
+	mFPS->setFixedWidth(150);
 
 	QHBoxLayout *layout = new QHBoxLayout;
 	layout->addWidget(mFPS);

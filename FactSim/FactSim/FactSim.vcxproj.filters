@@ -158,6 +158,15 @@
     <ClCompile Include="GeneratedFiles\Release\moc_MachineParameters.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FSFactoryScene.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FSFactoryScene.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="FSFactoryScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="FactSim.h">
@@ -178,14 +187,17 @@
     <CustomBuild Include="FSInterface\MachineInformation.h">
       <Filter>Header Files\FSInterface</Filter>
     </CustomBuild>
-    <CustomBuild Include="FSInterface\FSFactoryView.h">
-      <Filter>Header Files\FSInterface</Filter>
-    </CustomBuild>
     <CustomBuild Include="FSInterface\FactSimStats.h">
       <Filter>Header Files\FSInterface</Filter>
     </CustomBuild>
     <CustomBuild Include="MachineParameters.h">
       <Filter>Header Files\FSInterface</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FSInterface\FSFactoryView.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FSFactoryScene.h">
+      <Filter>Header Files</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
